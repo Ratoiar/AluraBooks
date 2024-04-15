@@ -5,6 +5,7 @@
     display:  inline-block;
     background-repeat: no-repeat;
     background-position: center;
+    
 }
 
 .cabecalho{
@@ -46,6 +47,7 @@
 }
 .lista-menu_titulo{
   color: var(--laranja);
+  font-weight: 700;
 }
 .lista-menu_link{
   background: var(--azul-Degrade);
@@ -55,3 +57,4 @@
   text-transform: uppercase;
 
 }
+
