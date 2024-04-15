@@ -8,7 +8,7 @@
 }
 
 .cabecalho{
-    background-color: #FFFFFF;
+    background-color: var(--branco);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -20,4 +20,22 @@
 
 .container_imagem{
     padding: 1em;
+}
+.lista-menu{
+  display: none;
+  position: absolute;
+  top: 100%;
+}
+.container_botao{
+  display:none;
+}
+.container_botao:checked~.lista-menu{
+  display: block;
+}
+
+.lista-menu_titulo, .lista-menu_link{
+  padding: 1em;
+  
+
+  
 }
