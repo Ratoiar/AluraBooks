@@ -12,10 +12,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 .container{
     display: flex;
     align-items: center;
+ 
 }
 
 .container_imagem{
@@ -32,10 +34,15 @@
 .container_botao:checked~.lista-menu{
   display: block;
 }
+.lista-menu_link{
+  text-decoration: none;
+}
 
-.lista-menu_titulo, .lista-menu_link{
-  padding: 0.5em;
-  
-
-  
+.lista-menu_titulo,
+.lista-menu_item{
+  padding: 1em;
+  background-color: var(--branco);
+}
+.lista-menu_titulo{
+  color: var(--laranja);
 }
